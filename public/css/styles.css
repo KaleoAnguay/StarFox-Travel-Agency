@@ -1,0 +1,50 @@
+body {
+  background-color: lightblue; }
+
+.nav-bar {
+  background-color: #333333;
+  height: 80px;
+  display: flex;
+  justify-content: space-between; }
+  .nav-bar .spaceship img {
+    width: 70px;
+    margin-left: 50px;
+    filter: invert(100%); }
+  .nav-bar .star {
+    margin-right: 400px;
+    color: lightblue; }
+  .nav-bar .nav-butt img {
+    width: 50px;
+    margin-top: 20px;
+    margin-right: 10px; }
+
+#body {
+  display: flex;
+  flex-direction: column; }
+
+.bigspace {
+  height: 400px;
+  display: flex;
+  align-self: center; }
+
+#ship {
+  width: 1000px; }
+
+.text {
+  font-size: 250%;
+  text-align: center;
+  display: flex;
+  flex-direction: column; }
+
+.findMore {
+  background-color: grey;
+  width: 600px;
+  height: 70px;
+  display: flex;
+  align-self: center; }
+
+.findme {
+  color: white;
+  display: flex;
+  align-self: center;
+  flex-direction: row; }

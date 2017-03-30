@@ -1,0 +1,77 @@
+$light-color: lightblue;
+$dark-color: #333333;
+$Grey-color: grey;
+
+
+body{
+  background-color: $light-color;
+}
+
+.nav-bar{
+  background-color: $dark-color;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+
+
+
+.spaceship img{
+  width: 70px;
+  margin-left: 50px;
+  filter:invert(100%);
+
+
+}
+
+.star{
+  margin-right: 400px;
+  color: $light-color;
+
+}
+
+.nav-butt img{
+  width: 50px;
+  margin-top: 20px;
+  margin-right: 10px;
+
+}
+}
+
+#body{
+  display: flex;
+  flex-direction: column;
+
+
+}
+  .bigspace{
+    height: 400px;
+    display: flex;
+    align-self: center;
+  }
+
+  #ship{
+    width: 1000px;
+  }
+
+  .text{
+    font-size: 250%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ }
+
+
+.findMore{
+  background-color: $Grey-color;
+  width: 600px;
+  height: 70px;
+  display: flex;
+  align-self: center;
+}
+
+.findme{
+  color: white;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+}
